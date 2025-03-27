@@ -1,0 +1,11 @@
+.primary-btn {
+    display: block; /* S'assure que le bouton occupe une ligne entière */
+    margin: 20px auto; /* Centrer horizontalement avec un espace au-dessus et en dessous */
+    padding: 10px 20px; /* Espacement interne pour rendre le bouton plus grand */
+    font-size: 16px; /* Taille du texte */
+    background-color: maroon;
+    color: white; /* Couleur du texte */
+    border: none; /* Supprimer les bordures */
+    border-radius: 5px; /* Bords arrondis */
+    cursor: pointer; /* Changer le curseur au survol */
+}

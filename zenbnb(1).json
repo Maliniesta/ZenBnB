@@ -1,0 +1,685 @@
+{
+  "siteName": "Zenbnb",
+  "listings": [
+    {
+      "id": 1,
+      "title": "Appartement avec vue sur la ville",
+      "description": "Id\u00e9al pour les couples ou les voyageurs en solo.",
+      "city": "Toulouse",
+      "price_per_night": 189.48,
+      "rating": 3.5,
+      "guest_capacity": 3,
+      "image": "assets/img/luxe/appart-toulouse.jpg",
+      "wifi": true,
+      "superhost": true,
+      "tags": [
+        "vue mer",
+        "lumineux"
+      ],
+      "visible": true
+    },
+    {
+      "id": 2,
+      "title": "Appartement lumineux proche m\u00e9tro",
+      "description": "Possibilit\u00e9 de garer une voiture gratuitement.",
+      "city": "Strasbourg",
+      "price_per_night": 55.13,
+      "rating": 3.5,
+      "guest_capacity": 4,
+      "image": "assets/img/moinscher/strasbourg-metro.jpg",
+      "wifi": true,
+      "superhost": true,
+      "tags": [
+        "proche m\u00e9tro"
+      ],
+      "visible": false
+    },
+    {
+      "id": 3,
+      "title": "Maison de ville avec jardin",
+      "description": "Id\u00e9al pour les couples ou les voyageurs en solo.",
+      "city": "Lyon",
+      "price_per_night": 109.23,
+      "rating": 3.8,
+      "guest_capacity": 4,
+      "image": "assets/img/raisonnable/maison-lyon3.jpg",
+      "wifi": true,
+      "superhost": true,
+      "tags": [
+        "calme",
+        "design",
+        "lumineux"
+      ],
+      "visible": true
+    },
+    {
+      "id": 4,
+      "title": "Appartement lumineux proche m\u00e9tro",
+      "description": "Espace de travail inclus, parfait pour les t\u00e9l\u00e9travailleurs.",
+      "city": "Lyon",
+      "price_per_night": 111.66,
+      "rating": 4.1,
+      "guest_capacity": 5,
+      "image": "assets/img/raisonnable/appart-lyon1.jpg",
+      "wifi": true,
+      "superhost": false,
+      "tags": [
+        "spacieux",
+        "vue mer",
+        "lumineux"
+      ],
+      "visible": true
+    },
+    {
+      "id": 5,
+      "title": "Loft moderne et spacieux",
+      "description": "Espace de travail inclus, parfait pour les t\u00e9l\u00e9travailleurs.",
+      "city": "Nice",
+      "price_per_night": 44.09,
+      "rating": 3.5,
+      "guest_capacity": 3,
+      "image": "assets/img/moinscher/nice-loft.jpg",
+      "wifi": true,
+      "superhost": false,
+      "tags": [
+        "proche m\u00e9tro",
+        "spacieux",
+        "calme"
+      ],
+      "visible": true
+    },
+    {
+      "id": 6,
+      "title": "Loft moderne et spacieux",
+      "description": "Propre, confortable et agr\u00e9able \u00e0 vivre.",
+      "city": "Paris",
+      "price_per_night": 46.06,
+      "rating": 4.6,
+      "guest_capacity": 5,
+      "image": "assets/img/moinscher/paris-loft.jpg",
+      "wifi": false,
+      "superhost": false,
+      "tags": [
+        "romantique",
+        "vue mer"
+      ],
+      "visible": true
+    },
+    {
+      "id": 7,
+      "title": "Appartement lumineux proche m\u00e9tro",
+      "description": "Id\u00e9al pour les couples ou les voyageurs en solo.",
+      "city": "Lyon",
+      "price_per_night": 188.12,
+      "rating": 4.2,
+      "guest_capacity": 6,
+      "image": "assets/img/luxe/appart-lyon.jpg",
+      "wifi": true,
+      "superhost": false,
+      "tags": [
+        "romantique",
+        "calme",
+        "spacieux"
+      ],
+      "visible": false
+    },
+    {
+      "id": 8,
+      "title": "Appartement avec vue sur la ville",
+      "description": "\u00c0 deux pas des restaurants et des commerces.",
+      "city": "Nice",
+      "price_per_night": 48.66,
+      "rating": 4.9,
+      "guest_capacity": 6,
+      "image": "assets/img/moinscher/nice-ville.jpg",
+      "wifi": true,
+      "superhost": true,
+      "tags": [
+        "famille",
+        "lumineux",
+        "romantique"
+      ],
+      "visible": true
+    },
+    {
+      "id": 9,
+      "title": "Appartement avec vue sur la ville",
+      "description": "Espace de travail inclus, parfait pour les t\u00e9l\u00e9travailleurs.",
+      "city": "Lyon",
+      "price_per_night": 66.99,
+      "rating": 4.0,
+      "guest_capacity": 1,
+      "image": "assets/img/moinscher/lyon-ville.jpg",
+      "wifi": true,
+      "superhost": false,
+      "tags": [
+        "calme",
+        "design"
+      ],
+      "visible": true
+    },
+    {
+      "id": 10,
+      "title": "Charmant studio en centre-ville",
+      "description": "Tr\u00e8s bien situ\u00e9, proche de toutes commodit\u00e9s.",
+      "city": "Lyon",
+      "price_per_night": 189.27,
+      "rating": 4.4,
+      "guest_capacity": 6,
+      "image": "assets/img/luxe/studio-lyon.jpg",
+      "wifi": false,
+      "superhost": false,
+      "tags": [
+        "design",
+        "lumineux"
+      ],
+      "visible": true
+    },
+    {
+      "id": 11,
+      "title": "Loft moderne et spacieux",
+      "description": "Appartement calme et enti\u00e8rement \u00e9quip\u00e9.",
+      "city": "Paris",
+      "price_per_night": 52.95,
+      "rating": 4.0,
+      "guest_capacity": 4,
+      "image": "assets/img/moinscher/paris-loft2.jpg",
+      "wifi": false,
+      "superhost": false,
+      "tags": [
+        "calme"
+      ],
+      "visible": true
+    },
+    {
+      "id": 12,
+      "title": "Appartement cosy avec balcon",
+      "description": "Vue imprenable et quartier s\u00e9curis\u00e9.",
+      "city": "Lille",
+      "price_per_night": 115.42,
+      "rating": 4.4,
+      "guest_capacity": 5,
+      "image": "assets/img/raisonnable/appart-lille.jpg",
+      "wifi": true,
+      "superhost": true,
+      "tags": [
+        "design"
+      ],
+      "visible": true
+    },
+    {
+      "id": 13,
+      "title": "Studio r\u00e9nov\u00e9 tout \u00e9quip\u00e9",
+      "description": "Logement charmant et authentique.",
+      "city": "Lyon",
+      "price_per_night": 91.69,
+      "rating": 4.5,
+      "guest_capacity": 4,
+      "image": "assets/img/raisonnable/studio-lyon.jpg",
+      "wifi": true,
+      "superhost": true,
+      "tags": [
+        "calme",
+        "proche m\u00e9tro"
+      ],
+      "visible": true
+    },
+    {
+      "id": 14,
+      "title": "Studio r\u00e9nov\u00e9 tout \u00e9quip\u00e9",
+      "description": "Tr\u00e8s bien situ\u00e9, proche de toutes commodit\u00e9s.",
+      "city": "Marseille",
+      "price_per_night": 165.27,
+      "rating": 5.0,
+      "guest_capacity": 2,
+      "image": "assets/img/luxe/studio-marseille.jpg",
+      "wifi": true,
+      "superhost": true,
+      "tags": [
+        "calme",
+        "vue mer"
+      ],
+      "visible": true
+    },
+    {
+      "id": 15,
+      "title": "Maison de ville avec jardin",
+      "description": "\u00c0 deux pas des restaurants et des commerces.",
+      "city": "Lyon",
+      "price_per_night": 84.31,
+      "rating": 3.2,
+      "guest_capacity": 2,
+      "image": "assets/img/raisonnable/maison-lyon2.jpg",
+      "wifi": true,
+      "superhost": true,
+      "tags": [
+        "spacieux",
+        "design"
+      ],
+      "visible": true
+    },
+    {
+      "id": 16,
+      "title": "Charmant studio en centre-ville",
+      "description": "Appartement calme et enti\u00e8rement \u00e9quip\u00e9.",
+      "city": "Toulouse",
+      "price_per_night": 98.42,
+      "rating": 4.7,
+      "guest_capacity": 4,
+      "image": "assets/img/raisonnable/studio-toulouse.jpg",
+      "wifi": true,
+      "superhost": false,
+      "tags": [
+        "lumineux"
+      ],
+      "visible": false
+    },
+    {
+      "id": 17,
+      "title": "Maison de ville avec jardin",
+      "description": "Possibilit\u00e9 de garer une voiture gratuitement.",
+      "city": "Lyon",
+      "price_per_night": 101.69,
+      "rating": 4.4,
+      "guest_capacity": 6,
+      "image": "assets/img/raisonnable/maison-lyon.jpg",
+      "wifi": false,
+      "superhost": false,
+      "tags": [
+        "famille",
+        "vue mer"
+      ],
+      "visible": true
+    },
+    {
+      "id": 18,
+      "title": "Maison de ville avec jardin",
+      "description": "Espace de travail inclus, parfait pour les t\u00e9l\u00e9travailleurs.",
+      "city": "Strasbourg",
+      "price_per_night": 108.02,
+      "rating": 3.9,
+      "guest_capacity": 1,
+      "image": "assets/img/raisonnable/maison-strasbourg2.jpg",
+      "wifi": true,
+      "superhost": false,
+      "tags": [
+        "vue mer"
+      ],
+      "visible": true
+    },
+    {
+      "id": 19,
+      "title": "Studio r\u00e9nov\u00e9 tout \u00e9quip\u00e9",
+      "description": "Id\u00e9al pour les couples ou les voyageurs en solo.",
+      "city": "Bordeaux",
+      "price_per_night": 42.35,
+      "rating": 3.7,
+      "guest_capacity": 2,
+      "image": "assets/img/moinscher/bordeaux-studio.jpg",
+      "wifi": true,
+      "superhost": true,
+      "tags": [
+        "calme"
+      ],
+      "visible": false
+    },
+    {
+      "id": 20,
+      "title": "Loft moderne et spacieux",
+      "description": "Vue imprenable et quartier s\u00e9curis\u00e9.",
+      "city": "Strasbourg",
+      "price_per_night": 63.84,
+      "rating": 3.1,
+      "guest_capacity": 2,
+      "image": "assets/img/moinscher/strasbourg-loft.jpg",
+      "wifi": true,
+      "superhost": true,
+      "tags": [
+        "design",
+        "calme",
+        "lumineux"
+      ],
+      "visible": true
+    },
+    {
+      "id": 21,
+      "title": "Maison de ville avec jardin",
+      "description": "Possibilit\u00e9 de garer une voiture gratuitement.",
+      "city": "Bordeaux",
+      "price_per_night": 84.03,
+      "rating": 4.9,
+      "guest_capacity": 2,
+      "image": "assets/img/raisonnable/maison-bordeaux.jpg",
+      "wifi": false,
+      "superhost": true,
+      "tags": [
+        "design",
+        "romantique",
+        "famille"
+      ],
+      "visible": false
+    },
+    {
+      "id": 22,
+      "title": "Loft moderne et spacieux",
+      "description": "D\u00e9coration moderne et acc\u00e8s facile aux transports.",
+      "city": "Toulouse",
+      "price_per_night": 199.0,
+      "rating": 3.6,
+      "guest_capacity": 4,
+      "image": "assets/img/luxe/loft-toulouse.jpg",
+      "wifi": false,
+      "superhost": false,
+      "tags": [
+        "proche m\u00e9tro",
+        "calme"
+      ],
+      "visible": true
+    },
+    {
+      "id": 23,
+      "title": "Maison de ville avec jardin",
+      "description": "Id\u00e9al pour les couples ou les voyageurs en solo.",
+      "city": "Marseille",
+      "price_per_night": 171.35,
+      "rating": 4.6,
+      "guest_capacity": 2,
+      "image": "assets/img/luxe/maison-marseille.jpg",
+      "wifi": false,
+      "superhost": true,
+      "tags": [
+        "romantique",
+        "lumineux",
+        "design"
+      ],
+      "visible": false
+    },
+    {
+      "id": 24,
+      "title": "Studio r\u00e9nov\u00e9 tout \u00e9quip\u00e9",
+      "description": "Vue imprenable et quartier s\u00e9curis\u00e9.",
+      "city": "Bordeaux",
+      "price_per_night": 192.32,
+      "rating": 3.5,
+      "guest_capacity": 3,
+      "image": "assets/img/luxe/studio-bordeaux.jpg",
+      "wifi": true,
+      "superhost": true,
+      "tags": [
+        "design",
+        "calme"
+      ],
+      "visible": false
+    },
+    {
+      "id": 25,
+      "title": "Appartement cosy avec balcon",
+      "description": "Possibilit\u00e9 de garer une voiture gratuitement.",
+      "city": "Marseille",
+      "price_per_night": 155.37,
+      "rating": 3.4,
+      "guest_capacity": 3,
+      "image": "assets/img/luxe/appart-marseille.jpg",
+      "wifi": true,
+      "superhost": true,
+      "tags": [
+        "calme",
+        "famille",
+        "design"
+      ],
+      "visible": true
+    },
+    {
+      "id": 26,
+      "title": "Appartement avec vue sur la ville",
+      "description": "D\u00e9coration moderne et acc\u00e8s facile aux transports.",
+      "city": "Bordeaux",
+      "price_per_night": 93.24,
+      "rating": 4.0,
+      "guest_capacity": 4,
+      "image": "assets/img/raisonnable/appart-bordeaux.jpg",
+      "wifi": false,
+      "superhost": true,
+      "tags": [
+        "spacieux"
+      ],
+      "visible": true
+    },
+    {
+      "id": 27,
+      "title": "Duplex design avec terrasse",
+      "description": "Tr\u00e8s bien situ\u00e9, proche de toutes commodit\u00e9s.",
+      "city": "Lyon",
+      "price_per_night": 174.63,
+      "rating": 4.4,
+      "guest_capacity": 2,
+      "image": "assets/img/luxe/duplex-lyon.jpg",
+      "wifi": false,
+      "superhost": true,
+      "tags": [
+        "design",
+        "lumineux"
+      ],
+      "visible": false
+    },
+    {
+      "id": 28,
+      "title": "Studio r\u00e9nov\u00e9 tout \u00e9quip\u00e9",
+      "description": "Id\u00e9al pour les couples ou les voyageurs en solo.",
+      "city": "Nice",
+      "price_per_night": 124.29,
+      "rating": 4.4,
+      "guest_capacity": 2,
+      "image": "assets/img/luxe/studio-nice.jpg",
+      "wifi": true,
+      "superhost": false,
+      "tags": [
+        "spacieux"
+      ],
+      "visible": true
+    },
+    {
+      "id": 29,
+      "title": "Maison typique proche des plages",
+      "description": "Vue imprenable et quartier s\u00e9curis\u00e9.",
+      "city": "Bordeaux",
+      "price_per_night": 64.05,
+      "rating": 3.3,
+      "guest_capacity": 3,
+      "image": "assets/img/moinscher/bordeaux-plage.jpg",
+      "wifi": false,
+      "superhost": false,
+      "tags": [
+        "calme",
+        "famille"
+      ],
+      "visible": true
+    },
+    {
+      "id": 30,
+      "title": "Maison de ville avec jardin",
+      "description": "\u00c0 deux pas des restaurants et des commerces.",
+      "city": "Toulouse",
+      "price_per_night": 142.36,
+      "rating": 3.5,
+      "guest_capacity": 6,
+      "image": "assets/img/luxe/maison-toulouse2.jpg",
+      "wifi": true,
+      "superhost": false,
+      "tags": [
+        "romantique"
+      ],
+      "visible": true
+    },
+    {
+      "id": 31,
+      "title": "Charmant studio en centre-ville",
+      "description": "Vue imprenable et quartier s\u00e9curis\u00e9.",
+      "city": "Strasbourg",
+      "price_per_night": 133.21,
+      "rating": 3.7,
+      "guest_capacity": 6,
+      "image": "assets/img/luxe/studio-strasbourg.jpg",
+      "wifi": true,
+      "superhost": false,
+      "tags": [
+        "lumineux"
+      ],
+      "visible": true
+    },
+    {
+      "id": 32,
+      "title": "Loft moderne et spacieux",
+      "description": "Possibilit\u00e9 de garer une voiture gratuitement.",
+      "city": "Strasbourg",
+      "price_per_night": 94.56,
+      "rating": 4.3,
+      "guest_capacity": 2,
+      "image": "assets/img/raisonnable/loft-strasbourg.jpg",
+      "wifi": true,
+      "superhost": false,
+      "tags": [
+        "proche m\u00e9tro",
+        "vue mer",
+        "design"
+      ],
+      "visible": false
+    },
+    {
+      "id": 33,
+      "title": "Appartement lumineux proche m\u00e9tro",
+      "description": "Propre, confortable et agr\u00e9able \u00e0 vivre.",
+      "city": "Bordeaux",
+      "price_per_night": 158.83,
+      "rating": 3.8,
+      "guest_capacity": 3,
+      "image": "assets/img/luxe/appart-bordeaux.jpg",
+      "wifi": false,
+      "superhost": false,
+      "tags": [
+        "famille"
+      ],
+      "visible": false
+    },
+    {
+      "id": 34,
+      "title": "Appartement cosy avec balcon",
+      "description": "Propre, confortable et agr\u00e9able \u00e0 vivre.",
+      "city": "Bordeaux",
+      "price_per_night": 187.12,
+      "rating": 3.3,
+      "guest_capacity": 6,
+      "image": "assets/img/luxe/appart-bordeaux2.jpg",
+      "wifi": false,
+      "superhost": false,
+      "tags": [
+        "vue mer"
+      ],
+      "visible": true
+    },
+    {
+      "id": 35,
+      "title": "Maison de ville avec jardin",
+      "description": "D\u00e9coration moderne et acc\u00e8s facile aux transports.",
+      "city": "Strasbourg",
+      "price_per_night": 104.16,
+      "rating": 4.0,
+      "guest_capacity": 6,
+      "image": "assets/img/raisonnable/maison-strasbourg.jpg",
+      "wifi": true,
+      "superhost": false,
+      "tags": [
+        "famille",
+        "design"
+      ],
+      "visible": true
+    },
+    {
+      "id": 36,
+      "title": "Maison typique proche des plages",
+      "description": "Tr\u00e8s bien situ\u00e9, proche de toutes commodit\u00e9s.",
+      "city": "Marseille",
+      "price_per_night": 44.35,
+      "rating": 4.0,
+      "guest_capacity": 1,
+      "image": "assets/img/moinscher/marseille-plage.jpg",
+      "wifi": true,
+      "superhost": false,
+      "tags": [
+        "vue mer"
+      ],
+      "visible": true
+    },
+    {
+      "id": 37,
+      "title": "Maison de ville avec jardin",
+      "description": "Propre, confortable et agr\u00e9able \u00e0 vivre.",
+      "city": "Strasbourg",
+      "price_per_night": 46.32,
+      "rating": 3.4,
+      "guest_capacity": 1,
+      "image": "assets/img/moinscher/strasbourg-jardin.jpg",
+      "wifi": false,
+      "superhost": true,
+      "tags": [
+        "vue mer",
+        "design",
+        "lumineux"
+      ],
+      "visible": false
+    },
+    {
+      "id": 38,
+      "title": "Duplex design avec terrasse",
+      "description": "Espace de travail inclus, parfait pour les t\u00e9l\u00e9travailleurs.",
+      "city": "Strasbourg",
+      "price_per_night": 105.42,
+      "rating": 3.0,
+      "guest_capacity": 2,
+      "image": "assets/img/raisonnable/duplex-strasbourg.jpg",
+      "wifi": false,
+      "superhost": true,
+      "tags": [
+        "proche m\u00e9tro",
+        "romantique"
+      ],
+      "visible": false
+    },
+    {
+      "id": 39,
+      "title": "Appartement cosy avec balcon",
+      "description": "Appartement calme et enti\u00e8rement \u00e9quip\u00e9.",
+      "city": "Lyon",
+      "price_per_night": 106.35,
+      "rating": 4.0,
+      "guest_capacity": 5,
+      "image": "assets/img/raisonnable/appart-lyon.jpg",
+      "wifi": false,
+      "superhost": false,
+      "tags": [
+        "design",
+        "calme",
+        "spacieux"
+      ],
+      "visible": true
+    },
+    {
+      "id": 40,
+      "title": "Maison de ville avec jardin",
+      "description": "Id\u00e9al pour les couples ou les voyageurs en solo.",
+      "city": "Toulouse",
+      "price_per_night": 167.6,
+      "rating": 4.2,
+      "guest_capacity": 4,
+      "image": "assets/img/luxe/maison-toulouse2.jpg",
+      "wifi": true,
+      "superhost": true,
+      "tags": [
+        "calme",
+        "proche m\u00e9tro",
+        "vue mer"
+      ],
+      "visible": true
+    }
+  ]
+}

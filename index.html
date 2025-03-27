@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenBNB</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/primary-btn.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="stylesheet" href="assets/css/erreur.css">
+    <link rel="stylesheet" href="assets/css/logement.css">
+    <link rel="stylesheet" href="assets/css/message.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <div class="container">
+            <header>
+                <div class="title">
+                    <h1>Bienvenue sur Zen BnB</h1>
+                    <p>Votre site de réservation rapide en ligne</p>
+                </div>
+            </header>
+            <div class="formulaire">
+                <div class="info">
+                    <form id="form"> 
+                        <label>Prénom :</label>
+                        <input type="text" id="firstname">
+                    
+                        <label>Adresse :</label>
+                        <input type="text" id="address">
+                    
+                        <label>Email :</label>
+                        <input type="text" id="email">
+                    
+                        <label>Téléphone :</label>
+                        <input type="text" id="phone">
+                </div>
+                <div class="option">
+                    
+                        <h3>Type de logement :</h3>
+                        <div class="logement">
+                            <label>
+                                <input type="radio" id="maison" name="logement">
+                                Maison
+                            </label>
+                            <label>
+                                <input type="radio" id="appartement" name="logement">
+                                Appartement
+                            </label>
+                        </div>
+                        <h3>Options :</h3>
+                        <div class="options">
+                            <label>
+                                <input type="radio" id="piscine" name="option">
+                                Piscine
+                            </label>
+                            <label>
+                                <input type="radio" id="jardin" name="option">
+                                Jardin
+                            </label>
+                        </div>
+                    
+                </div>
+                <div class="choice">
+                    <h3>Nombre de personnes</h3>
+                    <input type="number" id="personnes" name="personnes" min="1" max="10">
+                    <h3>Date d'arrivée</h3>
+                    <input type="date" id="dateArrivé" name="dateArrivé">
+                    <h3>Date de départ</h3>
+                    <input type="date" id="dateDépart" name="dateDépart">
+                </div>
+                <div class="option-supp">
+                    <h3>Options supplémentaires</h3>
+                    <label>
+                        <input type="checkbox" id="chauffeur">
+                        Chauffeur
+                    </label>
+                    <label>
+                        <input type="checkbox" id="petitDej">
+                        Petit-déjeuner
+                    </label>
+                    <label>
+                        <input type="checkbox" id="guide">
+                        Guide
+                    </label>
+                    <div id="diet-options" style="display: none;">
+                        <h3>Régime alimentaire</h3>
+                        <label>
+                            <input type="radio" id="vegetarien" name="diet">
+                            Végétarien
+                        </label>
+                        <label>
+                            <input type="radio" id="vegan" name="diet">
+                            Vegan
+                        </label>
+                        <label>
+                            <input type="radio" id="classique" name="diet">
+                            Classique
+                        </label>
+                    </div>
+                </div>
+            </div>
+                <div class="form-actions">
+                    <button class="primary-btn" type="submit">Envoyer</button>
+                </div>                
+            </form>
+            <div id="result" class="error"></div>
+            <section class="croissant">
+                <h1>Les moins chères</h1>
+                <div id="eco"></div>
+                <h1>Les raisonnables</h1>
+                <div id="moyen"></div>
+                <h1>Les luxueux</h1>
+                <div id="luxe"></div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <section class="down">
+        <div class="copy">
+       <p> Copyright 2025</p>
+        </div>
+        <div class="contact">
+            <p>Contactez nous a l'adressse: ZnBnB@gmail.com</p>
+            </div>
+    </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.error{
+    text-align: center;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: rgba(0, 0, 0, 0.4); /* Ombre noire légère */
+    padding: 1rem;
+    color: red;
+}
+
+.succes{
+    text-align: center;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: rgba(0, 0, 0, 0.4); /* Ombre noire légère */
+    padding: 1rem;
+    color: green;
+}
